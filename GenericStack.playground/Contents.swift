@@ -4,6 +4,8 @@ import UIKit
 
 var str = "Hello, playground"
 
+//Generic stack which supports for all type of data.
+
 class Stack<T>{
     var elementes = [T]()
     func push(element: T){
@@ -53,7 +55,6 @@ var stack3 = Stack<String>()
 stack3.push(element: "A")
 stack3.push(element: "B")
 stack3.push(element: "C")
-
 print(stack3.elementes)
 
 
