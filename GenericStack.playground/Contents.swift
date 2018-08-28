@@ -2,8 +2,6 @@
 
 import UIKit
 
-var str = "Hello, playground"
-
 //Generic stack which supports for all type of data.
 
 class Stack<T>{
